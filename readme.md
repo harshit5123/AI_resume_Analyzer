@@ -153,14 +153,8 @@ AI_RESUME_ANALYSER/
 ### Login Page
 ![Login](./screenshots/login.png)
 
-### Dashboard
-![Dashboard](./screenshots/dashboard.png)
-
 ### History
 ![History](./screenshots/history.png)
-
-### Admin Panel
-![Admin](./screenshots/admin.png)
 
 ---
 
@@ -254,7 +248,7 @@ npm run dev
 ```
 PORT                 → Express server port
 MONGODB_URI          → MongoDB connection string
-GROQ_API_KEY       → Cohere AI API key
+GROQ_API_KEY         → GROQ AI API key
 ```
 
 ### Frontend (`frontend_ai/.env`)
@@ -294,8 +288,8 @@ Contributions are welcome! Please follow these steps:
 
 **Harshit Pathak**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/shreesh001)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shreesh-pathak-b17b8428a/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/harshit5123)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harshit-pathak-9b5b112a5/)
 
 ---
 
