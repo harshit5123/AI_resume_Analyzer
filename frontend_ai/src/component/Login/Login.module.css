@@ -1,0 +1,50 @@
+.Login{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+
+.loginCard{
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.loginCardTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.googlebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+    .loginCard{
+        width: 80%;
+    }
+}

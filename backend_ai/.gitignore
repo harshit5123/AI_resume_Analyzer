@@ -1,0 +1,11 @@
+# environment variables
+.env
+
+# dependencies
+node_modules/
+
+# uploaded files
+uploads/
+
+# mac files
+.DS_Store

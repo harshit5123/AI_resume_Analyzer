@@ -1,0 +1,149 @@
+.History {
+  flex: 1;
+  min-height: 100vh;
+  overflow: auto;
+  padding: 48px 40px;
+  background-color: #f8f9fb;
+  box-sizing: border-box;
+}
+
+.HistoryCardBlock {
+  width: 100%;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 8px;
+}
+
+.HistoryCard {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 24px 20px;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.HistoryCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  border-color: #c7d2fe;
+}
+
+.CardPercentage {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.JobTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.ResumeName {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* ── Skill block ── */
+.SkillSection {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.SkillLabel {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.SkillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.TagGreen {
+  display: inline-block;
+  padding: 3px 10px;
+  background-color: #f0fdf4;
+  color: #16a34a;
+  border: 1px solid #bbf7d0;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.TagRed {
+  display: inline-block;
+  padding: 3px 10px;
+  background-color: #fff1f2;
+  color: #e11d48;
+  border: 1px solid #fecdd3;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ── Feedback ── */
+.FeedbackSection {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.FeedbackText {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* ── Date ── */
+.Date {
+  font-size: 12px;
+  color: #9ca3af;
+  margin: 0;
+  padding-top: 8px;
+  border-top: 1px solid #f3f4f6;
+  width: 100%;
+}
+
+/* ── Responsive ── */
+@media screen and (max-width: 1100px) {
+  .HistoryCardBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .History {
+    padding: 30px 16px;
+  }
+  .HistoryCardBlock {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .HistoryCardBlock {
+    grid-template-columns: 1fr;
+  }
+}
