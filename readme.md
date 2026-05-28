@@ -292,7 +292,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 👨‍💻 Author
 
-**Shreesh Pathak**
+**Harshit Pathak**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/shreesh001)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shreesh-pathak-b17b8428a/)
